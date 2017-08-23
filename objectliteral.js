@@ -4,4 +4,4 @@ var pres = {
  age: 75,
 };
 
-window.alert(pres.fName);
+window.alert(Object.keys(pres).length);
